@@ -1,0 +1,9 @@
+F:\dotnet2019\Quartz.NetUI\Quartz.NET.WindowsService\bin\Release\Quartz.NET.WindowsService.exe.config
+F:\dotnet2019\Quartz.NetUI\Quartz.NET.WindowsService\bin\Release\Quartz.NET.WindowsService.exe
+F:\dotnet2019\Quartz.NetUI\Quartz.NET.WindowsService\bin\Release\Quartz.NET.WindowsService.pdb
+F:\dotnet2019\Quartz.NetUI\Quartz.NET.WindowsService\obj\Release\Quartz.NET.WindowsService.csproj.AssemblyReference.cache
+F:\dotnet2019\Quartz.NetUI\Quartz.NET.WindowsService\obj\Release\Quartz.NET.WindowsService.ProjectInstaller.resources
+F:\dotnet2019\Quartz.NetUI\Quartz.NET.WindowsService\obj\Release\Quartz.NET.WindowsService.csproj.GenerateResource.cache
+F:\dotnet2019\Quartz.NetUI\Quartz.NET.WindowsService\obj\Release\Quartz.NET.WindowsService.csproj.CoreCompileInputs.cache
+F:\dotnet2019\Quartz.NetUI\Quartz.NET.WindowsService\obj\Release\Quartz.NET.WindowsService.exe
+F:\dotnet2019\Quartz.NetUI\Quartz.NET.WindowsService\obj\Release\Quartz.NET.WindowsService.pdb

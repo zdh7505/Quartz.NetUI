@@ -50,7 +50,7 @@ namespace Quartz.NET.Web.Utility
             {
                 Content = content
             };
-            if (headers != null)
+            if ( headers != null)
             {
                 foreach (var header in headers)
                 {
@@ -70,6 +70,39 @@ namespace Quartz.NET.Web.Utility
                 Console.WriteLine(ex.Message);
                 return ex.Message;
             }
+        }
+
+        public static string GetHtmlSource2(string url)
+
+        {
+            //处理内容
+
+            string html = "";
+
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
+
+            request.Accept = "*/*"; //接受任意文件
+
+            request.UserAgent = "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322)"; // 模拟使用IE在浏览 http://www.52mvc.com
+
+            request.AllowAutoRedirect = true;//是否允许302
+
+            //request.CookieContainer = new CookieContainer();//cookie容器，
+
+            request.Referer = url; //当前页面的引用
+
+            HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+
+            Stream stream = response.GetResponseStream();
+
+            StreamReader reader = new StreamReader(stream, Encoding.Default);
+
+            html = reader.ReadToEnd();
+
+            stream.Close();
+
+            return html;
+
         }
     }
 }

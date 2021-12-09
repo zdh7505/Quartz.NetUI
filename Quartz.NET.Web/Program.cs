@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using NLog.Web;
 
 namespace Quartz.NET.Web
 {
@@ -30,6 +31,12 @@ namespace Quartz.NET.Web
                        webBuilder.UseKestrel().UseUrls("http://*:9950");
                        webBuilder.UseIIS();
                        webBuilder.UseStartup<Startup>();
-                   });
+                   })
+                   .ConfigureLogging(logging =>
+                   {
+                       logging.ClearProviders(); // 这个方法会清空所有控制台的输出
+                       logging.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Error);
+                   })
+                   .UseNLog(); // 使用NLog
     }
 }

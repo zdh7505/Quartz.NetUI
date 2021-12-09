@@ -1,0 +1,140 @@
+2021-11-03 22:31:32.0068 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-03 22:33:06.7590 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-03 22:35:18.6988 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-03 22:37:34.3607 Error Exception when parsing F:\dotnet2019\Quartz.NetUI\Quartz.NET.Web\bin\Debug\netcoreapp3.1\NLog.config.  Exception: System.ArgumentException: Unknown log level: Critical
+   at NLog.LogLevel.FromString(String levelName)
+   at NLog.Config.LoggingConfigurationParser.LogLevelFromString(String text)
+   at NLog.Config.LoggingConfigurationParser.EnableLevelsForRule(LoggingRule rule, String enableLevels, String minLevel, String maxLevel)
+   at NLog.Config.LoggingConfigurationParser.ParseRuleElement(ILoggingConfigurationElement loggerElement)
+   at NLog.Config.LoggingConfigurationParser.ParseRulesElement(ILoggingConfigurationElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.ParseTopLevel(NLogXmlElement content, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+2021-11-03 22:37:34.4720 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Exception when parsing F:\dotnet2019\Quartz.NetUI\Quartz.NET.Web\bin\Debug\netcoreapp3.1\NLog.config. 
+ ---> System.ArgumentException: Unknown log level: Critical
+   at NLog.LogLevel.FromString(String levelName)
+   at NLog.Config.LoggingConfigurationParser.LogLevelFromString(String text)
+   at NLog.Config.LoggingConfigurationParser.EnableLevelsForRule(LoggingRule rule, String enableLevels, String minLevel, String maxLevel)
+   at NLog.Config.LoggingConfigurationParser.ParseRuleElement(ILoggingConfigurationElement loggerElement)
+   at NLog.Config.LoggingConfigurationParser.ParseRulesElement(ILoggingConfigurationElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.ParseTopLevel(NLogXmlElement content, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2021-11-03 22:37:34.4908 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2021-11-03 22:37:34.4908 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-03 22:43:45.1112 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-03 22:47:22.4970 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-03 22:47:37.2437 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-03 22:48:31.2551 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-04 10:29:19.0210 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-05 11:02:45.4412 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-05 12:06:06.1224 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-05 14:30:51.1241 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-05 14:32:09.2942 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-05 14:33:55.7891 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-05 14:37:33.2382 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-05 14:38:37.1527 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-05 14:44:14.0485 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-12 15:14:47.0422 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-12 16:31:52.9606 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-12 16:38:39.8086 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-12 16:42:40.9393 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-12 16:46:42.8446 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-12 16:57:09.7389 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-12 17:02:16.3318 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-12 17:04:21.9693 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-12 19:40:39.9602 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-12 19:44:37.4729 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-12 20:08:21.2581 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-12 20:18:37.8602 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-12 20:21:18.2137 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-12 20:22:57.3398 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-12 20:23:35.4267 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-12 20:29:38.1496 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-12 20:31:21.5443 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-12 23:02:56.5242 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-12 23:37:48.1065 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-12 23:42:03.7121 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-12 23:53:15.5236 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-15 14:29:46.8973 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-15 16:40:07.7732 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-15 17:01:54.0816 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-15 17:57:48.4668 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-15 18:06:16.3090 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-15 22:16:52.0325 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-15 22:31:37.9835 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-15 22:34:35.2390 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-15 22:47:59.3839 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-15 22:50:01.1084 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-15 22:59:12.7224 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-15 23:34:39.5692 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-15 23:41:36.0391 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-15 23:46:28.2960 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 00:08:17.3665 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 00:10:32.9223 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 00:11:58.7862 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 00:18:47.3062 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 00:26:00.8864 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 00:27:05.7565 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 00:31:04.3772 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 00:32:18.6329 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 00:36:45.0130 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 00:37:38.6047 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 00:38:40.2847 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 00:39:08.6298 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 00:39:50.6088 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 00:40:24.7172 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 00:40:54.0036 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 00:43:16.7782 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 00:44:06.4593 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 00:45:04.8548 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 00:45:50.6433 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 00:48:54.2339 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 00:49:29.8768 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 01:02:24.2085 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 01:03:02.1966 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 01:04:59.3360 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 01:07:15.0580 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 01:09:49.5279 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 01:10:19.3423 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 01:20:34.2023 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 01:21:16.7874 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 01:25:51.1865 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 01:27:46.4398 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 01:28:05.6946 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 01:28:52.8390 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 01:56:14.9735 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 01:58:13.8423 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 01:59:17.3833 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 01:59:49.9894 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 02:01:08.9560 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 02:08:36.7604 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 02:10:42.4369 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 02:12:31.9580 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 02:14:05.3366 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 02:17:49.4867 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 02:21:37.5834 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 02:22:27.5822 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 02:25:14.7764 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 02:27:06.0144 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 02:40:29.4229 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 02:44:33.2152 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 03:11:18.7697 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 03:15:28.5721 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-16 03:31:05.6952 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-25 22:55:03.5803 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-25 22:55:46.4543 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-25 22:56:46.5305 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-25 23:04:12.1151 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-25 23:05:34.2042 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-25 23:07:13.0861 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-25 23:07:45.3156 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-25 23:53:45.9497 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-26 00:10:28.5769 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-26 00:20:45.8508 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-26 00:57:57.2123 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-28 21:52:46.6376 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2021-11-28 22:32:32.3261 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole

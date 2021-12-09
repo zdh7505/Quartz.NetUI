@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Authorization;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -13,6 +14,7 @@ using Newtonsoft.Json.Serialization;
 using Quartz.Impl;
 using Quartz.NET.Web.Extensions;
 using Quartz.NET.Web.Filters;
+using Quartz.NET.Web.Models.MysqlLottery;
 using Quartz.NET.Web.Utility;
 using System;   
 
@@ -30,6 +32,9 @@ namespace Quartz.NET.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //services.AddDbContext<MysqlDbContext>(
+            //        options => options.UseMySql("server=42.192.93.119;user id=root;password=zdh888999;database=lottery;charset=utf8;sslMode=None"));
+            services.AddDbContext<MysqlDbContext>();
             services.AddAuthentication(options =>
             {
                 options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
